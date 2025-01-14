@@ -1,0 +1,149 @@
+:root {
+  --Darkcyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Verydarkblue: hsl(212, 21%, 14%);
+  --Darkgrayishblue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  background-color: var(--Cream);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.preview-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 20rem;
+  background-color: var(--White);
+  border-radius: 10px;
+  overflow: hidden; /* Ensures the image respects the border-radius */
+}
+
+.preview-card-image {
+  max-width: 320px;
+}
+
+.image {
+  width: 100%;
+}
+
+.preview-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline-end: auto;
+}
+.product {
+  padding: 0 0 1rem 1.2rem;
+}
+
+.product.category {
+  font-size: 13px;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  color: var(--Darkgrayishblue);
+  letter-spacing: 0.5ch;
+  padding-top: 1rem;
+}
+
+.product.name {
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  line-height: 1;
+  color: var(--Verydarkblue);
+}
+
+.product.description {
+  font-family: "Montserrat", serif;
+  color: var(--Darkgrayishblue);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.product.price {
+  display: flex;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.price-new {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--Darkcyan);
+}
+
+.price-old {
+  font-family: "Fraunces", serif;
+  color: var(--Darkgrayishblue);
+  padding-top: 0.9rem;
+}
+
+.add-to-cart {
+  padding: 1rem;
+  margin: 0 1.5rem 1.5rem 1.5rem;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  background-color: var(--Darkcyan);
+  color: var(--White);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: var(--Verydarkblue);
+}
+
+button svg {
+  display: inline-block; /* Ensure SVG behaves like an inline element */
+  vertical-align: middle; /* Aligns with the text baseline */
+  margin-right: 0.5rem;
+}
+
+.attribution {
+  margin-top: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(229, 24%, 65%);
+}
+
+@media (min-width: 768px) and (max-width: 2560px) {
+  .preview-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px; /* Adjust the max-width ac to the image width */
+    max-height: 450px;
+  }
+
+  .product {
+    margin-right: 2rem;
+    margin-left: 1rem;
+    
+  }
+
+  .add-to-cart {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+
+  
+}
