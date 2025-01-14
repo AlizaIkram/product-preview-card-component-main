@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Product Card Preview](https://product-card-preview-component-main.netlify.app)
 
 ## My process
 
@@ -64,4 +64,3 @@ I will focus on more practicing Mobile-first approach and making code clean.
 
 - Linkedin - [Aliza Ikram](https://www.linkedin.com/in/aliza-ikram)
 - Frontend Mentor - [@AlizaIkram](https://www.frontendmentor.io/profile/AlizaIkram)
-"# product-preview-card-component-main" 
