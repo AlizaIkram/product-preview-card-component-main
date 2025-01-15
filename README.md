@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-product-card-i89EVEaRW4)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/responsive-product-card-i89EVEaRW4)
 - Live Site URL: [Product Card Preview](https://product-card-preview-component-main.netlify.app)
 
 ## My process
