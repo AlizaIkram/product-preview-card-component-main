@@ -14,9 +14,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-- ![Desktop design](./screenshots/desktop.png)
-- ![Mobile design](./screenshots/mobile.png)
-- ![Active state](./screenshots/activestate.png)
+![Desktop design](./screenshots/desktop.png)
+![Mobile design](./screenshots/mobile.png)
+![Active state](./screenshots/activestate.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-product-card-i89EVEaRW4)
 - Live Site URL: [Product Card Preview](https://product-card-preview-component-main.netlify.app)
 
 ## My process
